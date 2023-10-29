@@ -457,8 +457,8 @@ def generar_informe_ventas_por_cliente(text_widget):
 def enviar_correo(text_widget):
     servidor_smtp = 'smtp.gmail.com'  
     puerto = 587  
-    usuario = 'dereksalguero236@gmail.com'
-    contrasena = 'ppqi grft nayi qdef'
+    usuario = 'miusuario'
+    contrasena = 'micontraseña'
     destinatario = simpledialog.askstring("Input", "Ingrese el correo electrónico del destinatario:")
     asunto = 'Informe de ventas'
     cuerpo = 'Aquí está el informe de ventas que solicitaste.'
